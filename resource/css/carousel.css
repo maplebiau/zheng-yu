@@ -29,10 +29,10 @@ h1,h2,h3,h4,h5,h6 {
 #Home_Carousel {
     margin-bottom: 20px;
 }
-
+/*
 #Home_Carousel h1 {
     font-family: "cwTeXHei";
-}
+}*/
 
 #Home_Carousel .slider_img {
     width: 100%;
