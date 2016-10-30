@@ -12,20 +12,11 @@
 
 /* 修改 bootstrap預設 */
 
-body,
-input,
-button,
-select,
-textarea {
+body,input,button,select,textarea {
     font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "微软雅黑", "メイリオ", "맑은 고딕", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "微软雅黑", "メイリオ", "맑은 고딕", sans-serif;
 }
 
@@ -40,7 +31,7 @@ h6 {
 }
 
 #Home_Carousel h1 {
-    font-family: "cwTeXHei";
+    /*font-family: "cwTeXHei";*/
 }
 
 #Home_Carousel .slider_img {
