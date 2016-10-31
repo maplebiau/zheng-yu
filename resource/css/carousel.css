@@ -211,13 +211,7 @@ body {
     .navbar-default .navbar-brand img {
       height: 60px;
     }
-    .navbar-default .navbar-nav{
-      padding: 0px;
-      border-radius: 0px;
-      background: rgba(8,149,255,.5);
-      float: none;
-      font-size: 12pt;
-    }
+
     .navbar-default .navbar-nav li{
       text-align: center;
       margin-right: 0px;
