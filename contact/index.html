@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="../resource/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="../resource/css/carousel.css">
     <link rel="stylesheet" href="../resource/css/font-awesome.min.css">
+
+    <script language="javascript">
+    function resizeIframe() {　　
+        //設定iFrame自動適應視窗大小
+        　　
+        parent.document.getElementById("g_iframe").height = document.body.scrollHeight;
+        parent.document.getElementById("g_iframe").width = document.body.scrollWidth;
+    }
+    window.onload = resizeIframe;
+    </script>
 </head>
 
 <body>
@@ -39,8 +49,8 @@
         <h2 style="padding-top:80px;">線上詢問</h2>
         <hr>
 
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSedNE4ORiyWS5CpIRcITeOaUy61sO6Ifjru5g48bSuQ2aa02g/viewform?embedded=ture"  style="width:100%;height:100%; " frameborder="0" marginheight="0" marginwidth="0" scrolling="n" >載入中…</iframe>
+        <div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSedNE4ORiyWS5CpIRcITeOaUy61sO6Ifjru5g48bSuQ2aa02g/viewform?embedded=ture"  style="width:100%;height:1200px; " frameborder="0" marginheight="0" marginwidth="0" scrolling="auto" id="g_iframe" >載入中…</iframe>
         </div>
     </div>
 
