@@ -22,7 +22,20 @@ h1,h2,h3,h4,h5,h6 {
 
 
 /*----------*/
-
+.iframe-rwd {
+    position: relative;
+    padding-bottom: 65.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.iframe-rwd iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /*-----------------------------------------------*/
 
@@ -199,7 +212,12 @@ body {
         font-size: 20pt;
     }
     body {
-      padding-top: 60px;
+      padding-top: 0px;
+    }
+
+    #Home_Carousel
+    {
+        padding-top: 50px;
     }
     #Home_Carousel .slider_img{
       height: 250px;
