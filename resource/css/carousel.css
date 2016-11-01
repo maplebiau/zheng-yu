@@ -217,7 +217,10 @@ body {
     
     #Myimg
     {
-        height: 300px;
+        min-height: 200px;
+        min-width: 200px;
+        height: auto;
+        width: auto;
         padding-bottom: 10px;
     }
 
