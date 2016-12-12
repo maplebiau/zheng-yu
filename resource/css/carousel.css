@@ -221,7 +221,12 @@ body {
         /*max-width: 200px;*/
         
         min-width: auto;
-        padding-bottom: 10px;
+        
+    }
+
+    #Mylist
+    {
+        padding-top: 10px;
     }
 
     #Home_Carousel
@@ -263,11 +268,24 @@ body {
     .navbar-default .navbar-brand img {
       height: 80px;
     }
+
+#Myimgcol
+    {
+        padding-top: 25px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    #Myimgcol
+    {
+        padding-top: 25px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
+    #Myimgcol
+    {
+        padding-top: 25px;
+    }
 }
 
